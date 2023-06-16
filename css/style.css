@@ -1,0 +1,309 @@
+/* bg image and content */
+.image1{
+    background-image: url(../images/rear-view-woman-standing-by-window.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600px;
+    width: 100%;
+}
+
+.a{
+    padding-top: 30px;
+    font-family: 'Lobster', cursive;
+    font-size: xx-large;
+    
+}
+
+.a1{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: medium;
+}
+
+.nav-bar{
+    text-align: center;
+    padding: 180px;
+}
+
+.div1{
+    font-size:80px;
+    font-family: 'EB Garamond', serif;
+}
+
+.span{
+    font-size: 100px;
+    color: yellow;
+}
+
+.p{
+    font-family: 'Lato', sans-serif;
+    font-size:15px;
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+
+.b1{
+    margin-right: 10px;
+    letter-spacing: 2px;
+    width: 180px;
+    padding: 10px;
+    text-align: center;
+    color:white;
+    background: transparent;
+    border: 2px white solid;
+    border-radius: 2px;
+    margin-top: 30px;
+}
+
+.b2{
+    margin-left: 10px;
+    letter-spacing: 2px;
+    width: 180px;
+    padding: 12px;
+    text-align: center;
+    color:white;
+    background-color:gold;
+    border: transparent;
+    border-radius: 2px;
+}
+
+.b2:hover{
+    background-color:blueviolet;
+}
+
+
+/* about */
+.ab1{
+    font-family: 'EB Garamond', serif;
+}
+
+/* projects */
+
+.projectimg{
+    background-image: url(../images/gray);
+    background-size: cover;
+    background-attachment: fixed;
+    height:180px;
+    margin-top: 60px;
+}
+
+/* images */
+.img{
+    width: 294px;
+    height:200px;
+
+}
+
+.imgs{
+    padding-top: 0%;
+}
+
+/* testimonials */
+
+.bgimg{
+    background-image:url(../images/violet.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600px;
+}
+
+
+
+
+.rimg{
+    border-image: round; 
+    border-radius: 100px;
+
+}
+
+.carousel_para{
+    text-align: justify;
+    padding: 35px;
+    margin: 0;
+}
+
+/* services */
+.s{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.p1{
+    text-align: justify;
+    font-family: 'Lato', sans-serif;
+    font-size:15px;
+}
+
+.material-symbols-outlined {
+    font-family: 'Material Symbols Outlined';
+    color: red;
+    margin-right: 200px;
+   text-align: center;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+}
+
+
+.material-symbols-outlined {
+    font-family: 'Material Symbols Outlined';
+    font-weight: normal;
+    font-style: normal;
+    margin-left: 150px;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+}
+
+
+/* yellow */
+.yellowimg{
+    background-image: url(../images/lastbg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    /* width: 100%; */
+    height: 100px;
+
+}
+
+
+/* team */
+
+.lastimg{
+    background-image: url(../images/gray);
+    background-size: cover;
+    background-attachment: fixed;
+    height:500px;
+     
+}
+
+
+.p1{
+    font-size:15px;
+    text-align: justify;
+}
+
+
+
+.r1{
+    margin-right: 900px;
+}
+
+.c1{
+    font-size:large;
+}
+
+
+.but1{
+    padding-bottom:20px;
+}
+
+
+
+
+
+ @media(min-width:300px) and (max-width:766.98px){ 
+    .rimg{
+        margin-left: 0px;
+    }
+    
+    
+    .carousel_para{
+        text-align: justify;
+        padding: 0px;
+        margin-left: 0px;
+    }
+    .image1{
+        background-image: url(../images/rear-view-woman-standing-by-window.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        height: 600px;
+        width: 100%;
+    }
+
+    .nav-bar{
+    text-align: center;
+    padding: 0;
+    font-size:large;
+    margin-top: 0;
+}
+.p{
+    /* text-align: justify; */
+    font-family: 'Lato', sans-serif;
+    font-size:15px;
+    margin-top: 5px;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+.header_nav{
+    display: none;
+}
+.nav_head{
+    padding-top: 50px;
+}
+.div1{
+    font-size: 50px;
+
+}
+
+.custom{
+    margin-right: 90px;
+}
+
+
+
+
+
+.team1para{
+    text-align: center;
+}
+
+
+
+.lastimg{
+    background-image: url(../images/gray);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height:100%;
+     
+}
+
+.dot{
+    display: none;
+}
+
+.cards{
+    padding-right: 60px;
+}
+
+
+.bgimg{
+    background-image:url(../images/violet.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+}
+
+
+/* .car_test{
+    padding-top: 50px;
+} */
+
+
+   }  
