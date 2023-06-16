@@ -71,10 +71,6 @@
 }
 
 
-/* about */
-.ab1{
-    font-family: 'EB Garamond', serif;
-}
 
 /* projects */
 
@@ -214,15 +210,37 @@
 }
 
 
-
+/* about */
+.ab1{
+    font-family: 'EB Garamond', serif;
+}
 
 
  @media(min-width:300px) and (max-width:766.98px){ 
-    .rimg{
-        margin-left: 0px;
+    
+
+    .add{
+        margin-right: 0px;
+        font-family: 'EB Garamond', serif;
+        text-align: justify;
+    }
+
+    .dot{
+        display: none;
     }
     
+
+
+    .rimg{
+        margin-left: 0px;
+        
+    }
     
+
+    .icon1{
+       padding-left: 50px;
+    }
+
     .carousel_para{
         text-align: justify;
         padding: 0px;
@@ -266,7 +284,9 @@
 }
 
 
-
+.card{
+   margin-left: 40px;
+}
 
 
 .team1para{
@@ -284,13 +304,8 @@
      
 }
 
-.dot{
-    display: none;
-}
 
-.cards{
-    padding-right: 60px;
-}
+
 
 
 .bgimg{
