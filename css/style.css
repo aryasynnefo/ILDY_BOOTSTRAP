@@ -194,6 +194,10 @@
     text-align: justify;
 }
 
+.drop_shadow{
+    box-shadow: 5px 5px 10px gray;
+
+}
 
 
 .r1{
@@ -317,9 +321,11 @@
 }
 
 
-/* .car_test{
-    padding-top: 50px;
+/* .drop_shadow{
+    box-shadow: 3px 3px 6px gray;
+    
 } */
+
 
 
    }  
